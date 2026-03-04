@@ -1,0 +1,240 @@
+/* todo */
+body{
+    background-color: rgb(240, 240, 76);
+}
+.col-lg-4{
+    border: 2px inset transparent;
+    height: 240px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(91, 241, 60);
+    color: brown;
+    padding: 15px;
+    box-shadow: 3px 3px 3px rgb(163, 163, 41),-3px -3px 3px rgb(163, 163, 41);
+}
+.id{
+    color: antiquewhite;
+    text-shadow: 1px 1px  brown;
+
+}
+.form-control{
+    outline: none;
+    border:none;
+    border: 2px outset transparent;
+    box-shadow: 3px 3px 4px green,-3px -3px 4px green;
+}
+.form-control:hover{
+    border: 1px solid green;
+}
+.btn{
+    border: 3px outset brown;
+    width: 100px;
+    color: white;
+    background-color: brown;
+    box-shadow: 3px 3px 4px green,-3px -3px 4px green;
+
+}
+.btn:hover{
+    color: brown;
+    background-color: white;
+    font-weight: bold;
+}
+
+.bi.bi-box-arrow-right{
+    color: white;
+    border: 3px inset transparent;
+    background-color: transparent;
+    padding: 8px 8px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 4px green,-3px -3px 4px rgb(188, 235, 188);
+    text-shadow: 1px 1px  black;
+    
+}
+.bi.bi-box-arrow-right:hover{
+   background-color: white;
+   color: black;
+   text-shadow: none;
+   
+}
+.top{
+    display: flex;
+    margin: 1px 3px;
+    justify-content: space-between;
+}
+.d-flex{
+    justify-content: space-between;
+}
+.col-lg-5{
+    border: 1px solid transparent;
+}
+.task{
+   border: 1px solid transparent;
+   width: 490px;
+   height: 330px; 
+    box-shadow: 3px 3px 3px rgb(163, 163, 41),-3px -3px 3px rgb(163, 163, 41);
+   /* position: relative; */
+   border-radius:  60px  60px;
+   background-color: rgb(91, 241, 60);
+}
+.list{
+   border: 4px inset transparent;
+   width: 450px;
+   height: 250px; 
+   margin: 40px 0px 0px 0px;
+   margin-left: 20px;
+   border-radius: 20px;
+   background-color: aliceblue;
+   overflow:scroll;
+   box-shadow: 3px 3px 4px green,-3px -3px 4px green;
+
+}
+.teddy{
+    position: relative;
+    margin: 180px 0px 0px 0px;
+    
+}
+.face{
+    width: 180px;
+    height: 151px;
+    border:1px solid rgb(241, 104, 40);
+    background-color: rgb(241, 104, 40);
+    border-radius: 50%;
+    position: absolute;
+    left: 150px;
+    bottom: 5px;
+    box-shadow: 3px 3px 3px rgb(8, 8, 8),-3px -3px 3px rgb(7, 7, 7);
+}
+.inface{
+    
+    width: 150px;
+    height: 130px;
+    margin: 10px auto;
+    border:1px solid rgb(241, 104, 40);
+    background-color: rgb(241, 104, 40);
+    border-radius: 50%;
+    position: relative;
+}
+.eye1{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   border:1px solid black;
+   background-color: pink;
+   position: absolute;
+   top: 20px;
+   left: 20px;
+
+}
+.eye2{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   border:1px solid black;
+   background-color: pink;
+   position: absolute;
+   top: 20px;
+   left: 80px;
+}
+.nose{
+   width: 30px;
+   height: 30px;
+   border-radius:50px 20px 30px 20px;
+   border:1px solid black;
+   background-color: rgb(5, 5, 5);
+   position: absolute;
+   top: 70px;
+   left: 55px;
+   transform: rotateZ(45deg);
+}
+.nnose{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 105px;
+    left: 53px;
+}
+.ear1{
+   width: 50px;
+   height: 40px;
+   border-radius: 50px 50px 0px 0px;
+   border:1px solid transparent;
+   background-color: rgb(241, 104, 40);
+   position: absolute;
+   bottom:100px;
+   left: 133px;
+   transform: rotateZ(45deg);
+   box-shadow: 3px 0px 2px black,-3px 0px 2px black;
+}
+.ear2{
+   width: 50px;
+   height: 40px;
+   border-radius: 50px 50px 0px 0px;
+   border:1px solid transparent;
+   background-color: rgb(241, 104, 40);
+   position: absolute;
+   right: 133px;
+   bottom: 100px;
+   transform: rotateZ(-45deg);
+    box-shadow: 3px 0px 2px black,-3px 0px 2px black;
+}
+.in{
+   width: 35px;
+   height: 30px;
+   border-radius: 50px 50px 0px 0px;
+   border:1px solid transparent;
+   background-color: black; 
+   margin: 5px 5px; 
+}
+.point{
+   width: 20px;
+   height: 20px;
+   border-radius:50%;
+   border:1px solid black;
+   background-color: rgb(5, 5, 5);
+   margin: 14px auto;
+   animation: eyepoint 1s ease-in;
+   animation-iteration-count: 10;
+}
+@keyframes eyepoint {
+   from{
+    margin-left: 2px;
+    margin-bottom: 1px;
+   }
+   to{
+    margin-right: -2px;
+    margin-bottom: 1px;
+   }
+}
+.hand1{
+    width: 40px;
+    height: 50px;
+    border-radius: 50px 0px 0px 40px;
+    background-color: rgb(241, 104, 40);
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    transform: rotateZ(-90deg);
+    box-shadow: 0px 2px 2px black,0px 2px 2px black;
+}
+.hand2{
+    width: 40px;
+    height: 50px;
+    border-radius: 50px 0px 0px 40px;
+    background-color:rgb(241, 104, 40);
+    position: absolute;
+    transform: rotateZ(-90deg);
+    right: 200px;
+    box-shadow: 0px 2px 2px black,-3px 0px 2px black;
+}
+
+/* edit */
+.col-lg-6{
+    border: 1px solid green;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 150px 0px;
+    background-color: rgb(32, 236, 32);
+    padding: 20px;
+    color: white;
+}

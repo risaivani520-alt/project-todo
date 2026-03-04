@@ -1,0 +1,50 @@
+#signup{
+    border: 3px outset transparent;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 4px rgb(157, 156, 158),-4px -3px 4px rgb(22, 22, 22);
+    color: white;
+   
+}
+.sign{
+    background-color: transparent;
+    border: 3px outset transparent;
+    padding: 13px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 3px 4px rgb(22, 22, 22),-4px -3px 4px rgb(157, 156, 158);
+    
+}
+
+
+h5,p{
+    text-align: center;
+}
+.btn{
+    border: 1px solid white;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(75, 6, 139);
+    font-weight: bold;
+}
+a{
+    color: rgb(75, 6, 139);
+    text-decoration: none;
+    background-color: white ;
+    padding: 2px ;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 0px 3px;
+}
+.error{
+    border: 1px solid white;
+    color: red;
+    /* background-color: rgb(248, 244, 244); */
+    border-radius: 5px;
+}
+
